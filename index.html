@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="https://static.vecteezy.com/ti/vecteur-libre/p1/3026148-pc-logo-monogram-modern-design-template-gratuit-vectoriel.jpg" />
+    <title>PicGen</title>
+</head>
+<body>
+
+    <div class="modal-container">
+        <div class="overlay modal-trigger"></div>
+        <div class="modal">
+            <button class="close-modal modal-trigger"><i class="fas fa-times"></i></button>
+            <h1>Best Picture 🥳</h1>
+            <p>This image has been selected<br>
+                among the best of the selection!</p>
+            <img src="" alt="" class="img-modal">
+        </div>
+    </div>
+
+    <section class="section-welcome">
+        <div class="center-div">
+            <h1 class="welcome">| Welcome on the PicGen |</h1>
+            <p class="whatis">PicGen is a free image generator coded by <br>myself. Picgen uses an api to be able to generate its images.</p>
+            <br>
+            <br>
+            <a href="#gen" class="generate">Generate</a>
+            <a href="https://github.com/GozOnTheCode" target="blank" class="github"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <section class="section-generate" id="gen">
+        <h1 class="h1-generate">| Generate on PicGen |</h1>
+
+        <div class="generate-input">
+            <p class="p-many">How many <span class="bold">lines</span> of image do you want to generate ?<br>( | Each value entered in the input will be <span class="bold">added</span> to the selection already present | )</p>
+            <input type="number" name="number" class="how">
+            <input type="button" class="btnGen" value="Generate"/>
+        </div>
+    </section>
+
+    <div class="div-container">
+        <div class="container"></div>
+    </div>
+
+    <section class="section-staff">
+        <h1 class="h1-generate">| Staff of PicGen |</h1>
+
+        <div class="div-staff">
+            <div class="div-all-staff">
+                <img src="https://pbs.twimg.com/media/Eu1m1VmXEAgtdqz.jpg" class="img-staff" alt="">
+                <div class="div-infostaff">
+                    <h1 class="name">GoZ_Z#4711</h1>
+                    <p class="p-activity">Front-End Developer <a href="https://github.com/GozOnTheCode" target="blank" class="github"><i class="fab fa-github"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-text">
+            <h1 class="picgenName">PicGen</h1>
+            <p class="italic">The photo gallery</p>
+            <p class="copyright">© Copyright <span class="purple">PicGen</span>. Tout droits réservée</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- <h1>Random Image Feed</h1>
+    <div class="container"></div> -->
+
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>

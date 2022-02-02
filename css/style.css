@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-welcome {
+    background: #2d2c3c;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    height: 75vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.container img {
+  object-fit: cover;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.center-div {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome {
+  color: white;
+  font-family: Raleway;
+  font-size: 50px;
+  text-align: center;
+}
+
+.whatis {
+  color: white;
+  font-family: Montserrat;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.generate {
+  color: white;
+  text-decoration: none;
+  font-family: Raleway;
+  background-color: purple;
+  padding: 15px 30px;
+  border-radius: 10px;
+  transition: .8s;
+}
+
+.generate2 {
+  color: white;
+  text-decoration: none;
+  font-family: Raleway;
+  background-color: purple;
+  padding: 15px 30px;
+  border-radius: 10px;
+  transition: .8s;
+  border: none;
+  margin-top: 2%;
+}
+
+.generate:hover {
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.github {
+  color: #fff;
+  margin-top: 2%
+}
+
+.section-generate {
+  margin-top: 12%;
+}
+
+.h1-generate {
+  color: #2d2c3c;
+  text-align: center;
+  margin: 5%;
+  font-family: Raleway;
+  opacity: 0.8;
+  font-size: 50px;
+}
+
+.generate-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generate-input a {
+  margin-top: 2%;
+}
+
+input[type="number"] {
+  border-bottom-color: #2d2c3c;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  width: 300px;
+  height: 4vh;
+  outline: none;
+  margin-top: 2%;
+}
+
+input[type="button"] {
+  color: white;
+  text-decoration: none;
+  font-family: Raleway;
+  background-color: purple;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 2%;
+}
+
+.p-many {
+  color: #2d2c3c;
+  font-family: Poppins;
+  text-align: center;
+}
+
+.div-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.container img {
+  object-fit: cover;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+}
+
+
+.modal-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.modal-container.active {
+  display: block;
+}
+
+.modal-container img {
+  overflow: hidden;
+  transition: .4s;
+}
+
+.modal-container img:hover {
+  transform: scale(0.9);
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333333d3;
+}
+
+.modal {
+  width: 95%;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close-modal {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background: transparent;
+  color: #000;
+}
+
+.modal h1 {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.modal p {
+  line-height: 1.4;
+  margin-bottom: 16px;
+  font-family: Montserrat;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.div-staff {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+.div-all-staff {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 50vh;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.img-staff {
+  width: 280px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.name {
+  color: #2a2c39;
+  font-family: Raleway;
+  font-weight: 100;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.p-activity {
+  color: #aaaaaa;
+  font-family: Montserrat;
+  margin-left: 20px;
+}
+
+.div-infostaff i {
+  color: #2a2c39;
+  margin-left: 5px;
+}
+
+footer {
+  background-color: #2a2c39;
+  margin-top: 5%;
+  height: 30vh;
+}
+
+.footer-text {
+  text-align: center;
+  transform: translateY(100%);
+}
+
+.picgenName {
+  font-family: Raleway;
+  color: white;
+}
+
+.italic {
+  font-family: Montserrat;
+  font-style: italic;
+  color: white;
+  font-size: 15px;
+  transform: translateY(50%);
+}
+
+.copyright {
+  color: white;
+  transform: translateY(150%);
+  font-family: Raleway;
+}
+
+.purple {
+  color: purple;
+}
